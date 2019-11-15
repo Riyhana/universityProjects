@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>online Pharmacy</title>
+    <link rel="stylesheet" href="css/purchase.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div id="nav">
+            <h1><a class=" h1 p-4 nav-link text-white animated zoomIn" href="purchase.html">Pharmacy</a></h1>
+            <nav class="navbar navbar-expand-lg navbar-light "  >
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div>
+                        <img src="Images/logo.png" alt="AFGLogo" id="logo"  class="float-right p-0 m-0"  >
+                <ul class="nav collapse navbar-collapse order-1" id="navbarSupportedContent" >
+                        
+                    <li class="nav-item"> 
+                        <a href="index.html" class="nav-link btn btn-block btn-dark m-2">
+                            <i class="fa fa-home"></i>
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="About.html" class="nav-link btn btn-block btn-dark m-2">
+                            <i class="fa fa-user"></i>
+                             About Us
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="purchase.html" class="nav-link btn btn-block btn-dark m-2 active">
+                            <i class="fa fa-pencil"></i>
+                            Purchase
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Contact.html" class="nav-link btn btn-block btn-dark m-2">
+                        <i class="fa fa-search"></i>
+                        Contact Us
+                        </a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <div class="dropdown">
+                            <button class="btn btn-info dropdown-toggle" data-toggle="dropdown" style="float: right; margin-top: 120px; margin-right: -87px;">Name of famoce Pharmacy</button>
+                            <div class="dropdown-menu">
+                                <a href="#pharmacy" class="dropdown-item">Alberoni Pharmacy</a>
+                            <div class="dropdown-divider"></div>
+                                <a href="#shafa" class="dropdown-item">shafa Pharmacy</a>
+                            <div class="dropdown-divider"></div>
+                                <a href="#taha" class="dropdown-item">Taha Pharmacy</a>
+                            </div>
+                        </div>
+                    </li> -->
+                </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+        <section class="container">
+
+            <div class="row m-5 text-justify w-100"  style="">
+                <div class="form ">
+                    <div class="card card-deck m-5 ">
+
+                <div for="card-title">
+                   <p class="h2 text-center text-dark m-3">Purchase Form</p> 
+                </div>
+                <div class="col-md-12 col-sm-4 card-body">
+
+                    <label for="name">Name:</label>
+                     <input type="text" name="name" placeholder="Enter your name please!" class="form-control">
+                     <br>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" name="lname" placeholder="Enter your last name please!" class="form-control">
+                    <br>
+                    <label for="age">Age:</label>
+                    <input type="number" name="age" placeholder="Enter your age please!" class="form-control">
+                    <br>
+                    <label for="objection">Objection:</label>
+                    <textarea name="objection" cols="30" rows="10" class="form-control m-2"></textarea>
+                
+                
+                    <label for="title" class="h1 m-auto">Medicine Names:</label>
+                    <textarea name="drugs"  cols="30" rows="10" class="form-control">Enter drug's name and amount</textarea>
+                    <div>
+                        <input type="checkbox" name="robat" id="" checked class="form-check d-inline ">I'm not a robat!<br>
+                       <label for="bell">Paid Bell:</label> 
+                        <input type="number" name="bell" placeholder="Enter your Card!" class="form-control m-3">
+                    </div>
+                    <input type="submit" value="Submit" class="btn btn-success float-right">
+                </div>
+            </div>
+        </div>
+    </div>
+        </section>
+        <footer id="nav">
+            <div class="row" >
+                <div class="col-md-4 col-sm-4 offset-4 ">
+                    <textarea name="Suggestion" id="" cols="30" rows="10" class="form-control m-3 p-3" >
+                        
+                    </textarea>
+                    <input type="submit" name="submit" value="Send" class="btn btn-success btn-block  m-2 " >
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 d-inline-block text-justify col-sm-3">
+                    <Address class="text-center text-light">Address : &nbsp Qoli_e_Ordo</Address>
+                    <address class="text-center text-light">Email : &nbsp riyhanaahmadi123@gmail.com</address>
+                    <p class="text-center text-light">Contact No:</p>
+                    <p class="text-center text-light">0798274234</p>
+                </div>
+            </div>
+            
+        
+        </footer>
+        </div>
+        <script src="lib/jquery-3.4.1.js"></script>
+        <script src="js/popper.min.js"></script>
+    <script src="lib/js/bootstrap.min.js"></script>
+</body>
+</html>
